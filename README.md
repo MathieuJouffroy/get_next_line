@@ -1,20 +1,21 @@
 # get_next_line
 
-int     get_next_line(const int file_descriptor, char **address_of_line);\n
+int     get_next_line(const int file_descriptor, char **address_of_line);<br/>
 
-Function that allows you to read a line ending with a newline character\n
-from a file descriptor without knowing its size beforehand.\n
+Function that allows you to read a line ending with a newline character<br/>
+from a file descriptor without knowing its size beforehand.<br/>
 
-Return values :\n
-.   0 End of file\n
-.   1 A line has been read but the reading is not complete\n
-.  -1 An error has happened\n
+Return values :<br/>
+.   0 End of file<br/>
+.   1 A line has been read but the reading is not complete<br/>
+. -1 An error has happened<br/>
 
 # Compiling library 
-make\n
-
-make clean\n
-To remove objects and binary file (program):\n
-make fclean\n
-To re-compile:\n
-make re\n
+To compile:<br/>
+make<br/>
+To remove objects:<br/>
+make clean<br/>
+To remove objects and binary file (program):<br/>
+make fclean<br/>
+To re-compile:<br/>
+make re<br/>
