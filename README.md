@@ -11,9 +11,8 @@ Return values :
 .  -1 An error has happened
 
 # Compiling library 
-To compile
 make
-To remove objects:
+
 make clean
 To remove objects and binary file (program):
 make fclean
