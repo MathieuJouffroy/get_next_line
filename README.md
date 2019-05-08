@@ -1,6 +1,6 @@
 # get_next_line
 
-int get_next_line(const int file_descriptor, char **address_of_line);
+int     get_next_line(const int file_descriptor, char **address_of_line);
 
 Function that allows you to read a line ending with a newline character
 from a file descriptor without knowing its size beforehand.
