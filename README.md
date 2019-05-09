@@ -19,3 +19,5 @@ To remove objects and binary file (program):<br/>
 make fclean<br/>
 To re-compile:<br/>
 make re<br/>
+
+Compile with libft.a main.c and get_next_line.c
