@@ -58,6 +58,7 @@ static void			shift_line(char **data)
 	char *pos;
 
 	tmp = *data;
+	dprintf(2, "data is : %s | %p\n", *data, *data);
 	if (!(pos = ft_strchr(tmp, '\n')))
 		*data = ft_strnew(0);
 	else
@@ -80,6 +81,7 @@ int					get_next_line(const int fd, char **line)
 	*line = update_line(file->data);
 	shift_line(&(file->data));
 	tmp = file->data;
+	dprintf(2, "tmp is :%p\n", tmp);
 	if (!**line && !nb_bytes)
 		return (0);
 	else
