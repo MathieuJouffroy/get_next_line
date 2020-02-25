@@ -11,9 +11,9 @@ Return values :<br/>
 -1 : error has happened<br/>
 
 # Compiling library 
-To compile: make
-To remove objects: make clean
-To remove objects and binary file (program): make fclean
-To re-compile: make re
+To compile: make<br/>
+To remove objects: make clean<br/>
+To remove objects and binary file (program): make fclean<br/>
+To re-compile: make re<br/>
 
 Compile with libft.a main.c and get_next_line.c
