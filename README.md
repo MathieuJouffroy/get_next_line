@@ -6,8 +6,8 @@ Function that allows you to read a line ending with a newline character<br/>
 from a file descriptor without knowing its size beforehand.<br/>
 
 Return values :<br/>
-0 : end of file<br/>
-1 : line has been read but the reading is not complete<br/>
+ 0 : end of file<br/>
+ 1 : line has been read but the reading is not complete<br/>
 -1 : error has happened<br/>
 
 # Compiling library 
